@@ -1,0 +1,5 @@
+numero = int(input())
+texto = str(input())
+x = float(numero)
+texto = texto.upper()
+print(texto, x)
