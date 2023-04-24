@@ -7,7 +7,7 @@ else:
     else:
         desconto = valor_compra * 0.2
 novo_valor = valor_compra - desconto
-print(f"Valor da Compra: {valor:10.2f}")
-print(f"Valor da Compra: {desconto:10.2f})
-print(f"novo_valor: "" {novo_valor:10.2f})
+print(f"Valor da Compra: {valor_compra:10.2f}")
+print(f"Valor da Compra: {desconto:10.2f}")
+print(f"novo_valor: {novo_valor:10.2f}")
 
