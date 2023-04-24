@@ -1,6 +1,6 @@
 print("Método de peso ideal!")
 sexo = input("Entre com o seu sexo (M) ou (H): ")
-altura = float("Entre com sua altura em metros: ")
+altura = float(input("Entre com sua altura em metros: "))
 if sexo.upper() == "M":
     peso = (72.7 * altura) - 58
 else:
