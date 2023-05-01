@@ -12,6 +12,3 @@ if ((a+b)>c) and ((a+c)>b) and ((b+c)>a):
         print("Triângulo Escaleno!")
 else:
     print("Os lados informados não formam um triângulo!")
-
-
-     
