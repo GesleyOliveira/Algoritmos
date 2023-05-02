@@ -6,7 +6,6 @@ nome_completo= primeiro_nome +' '+ segundo_nome +' '+ terceiro_nome
 print(f"Nome Completo: {nome_completo}")
 
 
-letra = nome_completo
 
 
 
