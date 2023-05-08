@@ -12,4 +12,4 @@ for i in range(1, 10):
         maior_valor = vetor[i]
         posicao_maior_valor = i
 
-print("O maior valor é {maior_valor} e está na posição {posicao_maior_valor}")
+print(f"O maior valor é {maior_valor} e está na posição {posicao_maior_valor+1}")
