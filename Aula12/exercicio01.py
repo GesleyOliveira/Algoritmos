@@ -1,8 +1,8 @@
-def epar():
-    pass
+def epar(x):
+    return (x % 2 == 0)
 
 n = int(input("Entre com um valor: "))
 if epar(n):
-    print("O número é par!")
+    print(f"O número {n} é par!")
 else:
-    print("O número é ímpar!")
+    print(f"O número {n} é ímpar!")
