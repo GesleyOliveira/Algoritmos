@@ -14,11 +14,7 @@ while True:
     for s in range(0,3):
         for i in range(0,3):
             print(".", end='\r')
-            sleep(0.5)
-            print("..", end='\r')
-            sleep(0.5)
-            print("...", end='\r')
-            sleep(0.5)
+        sleep(0.5)
     
     for _ in range(1, 1000000): # _ serve quando não se usa a variável
         pass
