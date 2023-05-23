@@ -35,6 +35,11 @@ def soma_primo(n):
 
 n = int(input("Entre com um número: "))
 
+
+for i in range(0, n):
+    if primo(i):
+        print(i)
+
 print(f"A quantidade de número primo é: {qtd_primo(n)}")
 print(f"A soma dos números primos é: {soma_primo(n)}")
 
