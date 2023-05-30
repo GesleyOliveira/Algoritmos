@@ -1,4 +1,4 @@
-arquivo = open("Aula15/frutas.txt", "w", encoding="utf-8")
+arquivo = open("frutas.txt", "w", encoding="utf-8")
 while True:
     fruta = input("Digite uma fruta: ")
     if fruta == '':

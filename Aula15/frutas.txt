@@ -1,2 +1,8 @@
-amora 
-laranja 
+amora
+laranja
+abacaxi
+manga
+laranja
+melancia
+amora
+acerola
