@@ -1,17 +1,16 @@
-arquivo = open("Aula16/carros.txt", encoding="utf-8")
-texto = arquivo.read()
-texto = texto.split("\n")
-listacarros = texto
-
-consumo = open("Aula16/consumo.txt", encoding="utf-8")
-texto2 = consumo.read()
-texto2 = texto2.split("\n")
-
-carroconsumo = []
-
-for i in texto:
-    for j in 
-    carroconsumo.append(texto2[i])
-
-print(carroconsumo)
-
+print('Comparativo de Consumo de Combustivel')
+veiculos = []
+consumo = []
+preco = 5.25
+for i in range(1, 6):
+    veiculos.append(input(f'Veiculo {i}: '))
+    consumo.append(float(input('Km por litro: ')))
+print("Relatório Final")
+menorConsumo = 0
+for i in range(0, 5):
+    custo = 1000 / consumo[i]
+    gasto = custo * preco
+    print(f'{i+1} - {veiculos[i]:10} - {consumo[i]:6.2f} - {custo:6.1f} litros - R$ {gasto:6.2f}')
+    if (consumo[i] > consumo[menorConsumo]):
+        menorConsumo = i
+print(f"O menor consumo é do {veiculos[menorConsumo]}")
